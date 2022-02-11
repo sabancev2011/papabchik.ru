@@ -1,0 +1,65 @@
+@media (max-width: 1200px) {
+    .pricing__card-price::after {
+        border-width: 0px 0px 30px 450px;
+    }
+}
+
+@media (max-width: 992px) {
+    .pricing__card-price::after {
+        border-width: 0px 0px 30px 330px;
+    }
+    .nav__item {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .team__slider-img{
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+
+    }
+    .pricing__card-price::after {
+        border-width: 0px 0px 30px 375px;
+    }
+    .nav {
+        display: flex;
+        height: 0;
+        opacity: 0%;
+    }
+    .nav__item {
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    
+    .pricing__card-price::after {
+        border-width: 0px 0px 0px 0px;
+    }
+    .header__content-title {
+        padding-top: 52px;
+        font-size: 40px;
+        line-height: 55px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navicon {
+        display: none;
+    }
+    .nav__items{
+        flex-direction: row;
+    }
+
+    .nav.active{
+        height: 40px;
+        align-items: center;
+    }
+    
+    .nav__items.active {
+        flex-direction: row;
+    }
+}
